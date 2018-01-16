@@ -4,7 +4,7 @@ import Card from 'material-ui/Card'
 
 const styles = {
   container: {
-    backgroundColor: '#A2DED0'
+    backgroundColor: '#F1A9A0'
   }
 }
 

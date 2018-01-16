@@ -9,6 +9,6 @@ const styles = {
 }
 
 const Footer = () =>
-  <div style={styles.container}>Footer</div>
+  <div style={styles.container}>BlogApp Project</div>
 
 export default Footer

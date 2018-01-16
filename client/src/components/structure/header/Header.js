@@ -10,6 +10,9 @@ const styles = {
     padding: '10',
     flexDirection: 'row',
     borderBottom: '3px solid #1E824C'
+  },
+  nav: {
+    fontFamily: 'Candal, sans-serif'
   }
 }
 
@@ -17,10 +20,18 @@ const Header = () => {
   return (
     <header>
       <nav style={styles.container}>
-        <NavItem to='/' >Home</NavItem>
-        <NavItem to='/about' >About</NavItem>
-        <NavItem to='/comments' >Comments</NavItem>
-        <NavItem to='/add-comment' > Add Comments </NavItem>
+        <div style={styles.nav}>
+          <NavItem to='/' >Home</NavItem>
+        </div>
+        <div style={styles.nav}>
+          <NavItem to='/about' >About</NavItem>
+        </div>
+        <div style={styles.nav}>
+          <NavItem to='/comments' >Comments</NavItem>
+        </div>
+        <div style={styles.nav}>
+          <NavItem to='/add-comment' > Add Blog Post </NavItem>
+        </div>
       </nav>
     </header>
   )

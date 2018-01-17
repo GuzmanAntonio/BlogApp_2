@@ -1,8 +1,8 @@
 import React from 'react'
 import Home from '../pages/Home'
 import About from '../pages/About'
-import Comments from '../pages/Comments'
 import AddCommentContainer from '../pages/comments/AddCommentContainer'
+import CommentsContainer from '../pages/comments/CommentsContainer'
 import {Route} from 'react-router-dom'
 
 const styles = {
@@ -19,7 +19,7 @@ const Main = () =>
   <main style={styles.container}>
     <Route exact path='/' component={Home} />
     <Route path='/about' component={About} />
-    <Route path='/comments' component={Comments} />
+    <Route path='/comments' component={CommentsContainer} />
     <Route path='/add-comment' component={AddCommentContainer} />
   </main>
 
